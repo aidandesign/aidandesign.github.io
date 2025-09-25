@@ -34,26 +34,24 @@ a img:hover {
 img #hypixel {
     size: 50px;
 }
-.section {
-  margin: 20px auto;
-  max-width: 800px;
-}
 
-.box {
+#box {
   background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white (or any color) */
   border: 2px solid #90ee90;  /* light green border */
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  max-width: 800px;
 }
 
 /* To ensure images inside boxes don’t overflow: */
-.box img {
+#box img {
   max-width: 70%;
   height: auto;
 }
 
 /* You might want spacing between links: */
-.box a {
+#box a {
   margin: 0 10px;
 }
