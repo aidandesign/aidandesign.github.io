@@ -30,3 +30,7 @@ img {
 a img:hover {
   transform: scale(1.05);
 }
+
+img #hypixel {
+    size: 50px;
+}
