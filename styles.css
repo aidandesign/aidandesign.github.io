@@ -93,7 +93,7 @@ img #hypixel {
 
 /* Fill inside the bar */
 .progress-fill2 {
-  width: 90%; /* static progress percentage */
+  width: 100%; /* static progress percentage */
   height: 100%;
   background-color: #90ee90;
   color: black;
@@ -115,7 +115,7 @@ img #hypixel {
 
 /* Fill inside the bar */
 .progress-fill4 {
-  width: 85%; /* static progress percentage */
+  width: 95%; /* static progress percentage */
   height: 100%;
   background-color: #90ee90;
   color: rgb(0, 0, 0);
