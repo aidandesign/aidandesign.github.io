@@ -13,11 +13,43 @@ h1 {
   text-stroke: 8px black; /* fallback for others */
   border-bottom: 0cm;
 }
+/* Screens smaller than 680px */
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 3rem; /* smaller for mobile */
+  }
+}
 
 h2{
   font-size: 2rem;
   color: #90ee90;
   margin: 2%;
+}
+/* Screens smaller than 680px */
+@media screen and (max-width: 680px) {
+  h2 {
+    font-size: 1.5rem; /* smaller for mobile */
+  }
+}
+
+h3{
+  font-size: 2rem;
+  color: #90ee90;
+  margin: 2%;
+}
+
+/* Screens smaller than 680px */
+@media screen and (max-width: 680px) {
+  h3 {
+    font-size: 1.4rem; /* smaller for mobile */
+  }
+}
+
+/* Screens smaller than 400px */
+@media screen and (max-width: 400px) {
+  h3 {
+    font-size: 1rem; /* very small screens */
+  }
 }
 
 a {
@@ -31,7 +63,7 @@ img {
   margin: 1px;
   transition: transform 0.2s;
   border: 1px;
-  max-width: 100%;   /* don’t overflow parent container */
+  max-width: 99%;   /* don’t overflow parent container */
   height: auto;
 }
 
@@ -81,6 +113,13 @@ img #hypixel {
   position: relative;
   margin: 2px auto;
   height: 25px;        /* slightly smaller for mobile */
+}
+
+/* Screens smaller than 680px */
+@media screen and (max-width: 680px) {
+  .progress-bar {
+    width: 200px;
+  }
 }
 
 /* Fill inside the bar */
