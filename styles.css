@@ -41,7 +41,7 @@ h3{
 /* Screens smaller than 680px */
 @media screen and (max-width: 680px) {
   h3 {
-    font-size: 1.4rem; /* smaller for mobile */
+    font-size: 1.3rem; /* smaller for mobile */
   }
 }
 
