@@ -31,6 +31,8 @@ img {
   margin: 1px;
   transition: transform 0.2s;
   border: 1px;
+  max-width: 100%;   /* don’t overflow parent container */
+  height: auto;
 }
 
 a img:hover {
@@ -78,6 +80,7 @@ img #hypixel {
   background-color: #345734; /* dark background */
   position: relative;
   margin: 2px auto;
+  height: 25px;        /* slightly smaller for mobile */
 }
 
 /* Fill inside the bar */
@@ -131,6 +134,9 @@ img #hypixel {
   position: sticky; /* stays at top when scrolling */
   top: 0;
   z-index: 1000;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;   /* wrap links on narrow screens */
 }
 
 .navbar ul {
@@ -171,4 +177,12 @@ h2 a{
   justify-content: space-evenly;
   text-align: center;
   display: flex;
+}
+/* Sections adapt to screen width */
+.section.box {
+  width: 90%;          /* use most of the screen width */
+  max-width: 800px;    /* but don’t get too wide on desktop */
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
 }
